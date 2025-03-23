@@ -3,7 +3,7 @@
 
 
 ## Objectives
-A plain Python IDE to explore barebones constructs required in an IDE.
+A toy IDE to explore barebones constructs required in an IDE.
 
 ## Project Structure
 - docs: Project documentation lives in here.
@@ -27,18 +27,16 @@ A plain Python IDE to explore barebones constructs required in an IDE.
 
 - utilities: Any useful scripts, such as curl & postman requests, JSON payloads, software installations, etc.
 
-
 ## Dependencies
 - [python 3.12+](https://www.python.org/downloads/)
 
 ## Setup Instructions
 - The repository is configured to use [devcontainers](https://containers.dev) for development.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
-    
+
 ## Run Program
-- Start system run
     ```shell
-    ./start_system.sh
+    python src/app.py
     ```
 
 ## Testing
